@@ -6,7 +6,6 @@
     of the program.
 */
 
-
 if (process.argv.length <= 2) {
     process.stderr.write("Missing argument\n");
     process.stderr.write("Usage: ./1-print_square.js <size>\n");
@@ -15,7 +14,6 @@ if (process.argv.length <= 2) {
 }
 
 size = parseInt(process.argv[2])
-
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
