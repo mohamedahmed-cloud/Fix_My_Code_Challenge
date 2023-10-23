@@ -21,7 +21,7 @@ def fizzbuzz(n):
             tmp_result.append("FizzBuzz")
         elif (i % 5) == 0:
             tmp_result.append("Buzz")
-        if (i % 3) == 0:
+        elif (i % 3) == 0:
             tmp_result.append("Fizz")
         else:
             tmp_result.append(str(i))
