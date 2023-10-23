@@ -17,7 +17,7 @@ ARGV.each do |arg|
 	big = 0
     l = result.size
     while i < l do
-        if result[i] > i_arg
+        if result[i] < i_arg
             big += 1
         end
         i += 1
